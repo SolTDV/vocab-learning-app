@@ -1,13 +1,15 @@
 {
     "current_streak": 2,
     "longest_streak": 2,
-    "last_study_date": "2026-02-07",
+    "last_study_date": "2026-02-10",
     "achievements": [],
-    "total_reviews": 15,
-    "studied_today": 3,
-    "xp": 50,
+    "total_reviews": 25,
+    "studied_today": 5,
+    "xp": 95,
     "history": {
         "2026-02-06": 5,
-        "2026-02-07": 3
+        "2026-02-07": 3,
+        "2026-02-09": 5,
+        "2026-02-10": 5
     }
 }

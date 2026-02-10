@@ -152,12 +152,10 @@ def add_word_gui_logic(word: str, sentence: str, note: str) -> bool:
 
 def remove_word(word: str) -> bool:
     """Remove a word from vocabulary."""
-    if word.lower() in [w.lower() for w in vocab.keys()]:
-        # Find exact case
-        for w in vocab.keys():
-            if w.lower() == word.lower():
-                del vocab[w]
-                break
+    for w in vocab.keys():
+        if w.lower() == word.lower():
+            del vocab[w]
+            break
         save_vocab()
         stats["words_removed"] = stats.get("words_removed", 0) + 1
         save_stats()

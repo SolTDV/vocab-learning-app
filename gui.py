@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, font
-import core as core
+import core  as core
 from datetime import datetime, date, timedelta
-import math
+
 
 
 # ==================================================
@@ -12,27 +12,27 @@ import math
 class Colors:
     """Centralized color palette for consistent design."""
     # Primary brand colors
-    PRIMARY = "#3b82f6"  # Bright blue
-    PRIMARY_DARK = "#1d4ed8"  # Darker blue
-    PRIMARY_LIGHT = "#60a5fa"  # Lighter blue
+    PRIMARY = "#3b82f6"
+    PRIMARY_DARK = "#1d4ed8"
+    PRIMARY_LIGHT = "#60a5fa"
 
     # Status colors
-    SUCCESS = "#10b981"  # Green (correct)
-    WARNING = "#f59e0b"  # Amber (hard)
-    DANGER = "#ef4444"  # Red (incorrect)
+    SUCCESS = "#10b981"
+    WARNING = "#f59e0b"
+    DANGER = "#ef4444"
 
-    # Neutrals - using the light blue color from screenshot
-    BG_PRIMARY = "#0f172a"  # Very dark (almost black)
-    BG_SECONDARY = "#1e293b"  # Dark gray-blue
-    BG_TERTIARY = "#334155"  # Medium gray-blue
 
-    TEXT_PRIMARY = "#60a5fa"  # Light blue (from screenshot - very visible)
-    TEXT_SECONDARY = "#93c5fd"  # Even lighter blue
-    TEXT_MUTED = "#3b82f6"  # Medium blue
+    BG_PRIMARY = "#0f172a"
+    BG_SECONDARY = "#1e293b"
+    BG_TERTIARY = "#334155"
+
+    TEXT_PRIMARY = "#60a5fa"
+    TEXT_SECONDARY = "#93c5fd"
+    TEXT_MUTED = "#3b82f6"
 
     # Special
-    ACCENT = "#06b6d4"  # Cyan
-    BORDER = "#475569"  # Border color
+    ACCENT = "#06b6d4"
+    BORDER = "#475569"
     OVERLAY = "rgba(0, 0, 0, 0.8)"
 
 
@@ -1223,10 +1223,12 @@ class VocabTrainerApp:
         core.save_stats()
         self.root.destroy()
 
+# testing core functions
 
 # ==================================================
 # RUN APPLICATION
 # ==================================================
+
 
 if __name__ == "__main__":
     root = tk.Tk()
