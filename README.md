@@ -5,7 +5,7 @@ A smart vocabulary learning application using spaced repetition algorithm (SM-2)
 ## Features
 
 - **Smart Study Scheduling**: Uses SM-2 spaced repetition algorithm to schedule reviews based on your performance
-- **Dashboard**: See your progress, streak, XP, and daily targets at a glance
+- **Dashboard**: See your progress, streak, XP, and daily targets 
 - **Study Sessions**: Interactive quiz mode with hint system and real-time feedback
 - **Word Management**: Add, edit, and delete words with example sentences and notes
 - **Analytics**: Track your learning progress with accuracy statistics, difficulty metrics, and activity heatmap
